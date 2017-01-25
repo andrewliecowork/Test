@@ -1,0 +1,3 @@
+[submodule "MultiImageSelector"]
+	path = MultiImageSelector
+	url = https://github.com/andrewliecowork/MultiImageSelector.git
