@@ -1,2 +1,1 @@
-include ':app', ':multi-image-selector'
-project(':multi-image-selector').projectDir = new File('MultiImageSelector/multi-image-selector')
+include ':app'
