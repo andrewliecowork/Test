@@ -15,3 +15,17 @@ Thumbs.db
 .project
 .idea
 app/src/main/obj/
+
+## Mac OS X
+.DS_Store
+__MACOSX
+
+# irb
+.irb-history
+
+Gemfile.lock
+
+# binaries
+#*.ipa
+#*.app
+#*.apk

@@ -1,0 +1,4 @@
+---
+android: PLATFORM=android -r features/support -r features/android -r features/steps -r features/android/pages
+
+ios: PLATFORM=ios APP=prebuilt/ios/zDrive.app APP_BUNDLE_PATH=prebuilt/ios/zDrive.app  -r features/support -r features/ios/support -r features/ios/helpers -r features/steps -r features/ios/pages

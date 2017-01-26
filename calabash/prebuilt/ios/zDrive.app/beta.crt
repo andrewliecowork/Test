@@ -1,0 +1,104 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4098 (0x1002)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=TW, ST=Taiwan, L=HsinChu, O=ZyXEL communication corp., OU=CABC, CN=myZyXELCloud intermediate CA/emailAddress=cloudadm@zyxel.com.tw
+        Validity
+            Not Before: May 13 03:51:11 2015 GMT
+            Not After : Aug 11 03:51:11 2015 GMT
+        Subject: C=TW, ST=Taiwan, L=HsinChu, O=ZyXEL communication corp., OU=CABC, CN=AppDev/emailAddress=cloudadm@zyxel.com.tw
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:df:56:70:84:65:33:26:b8:c8:9f:17:38:c1:ec:
+                    bf:95:ec:a1:9b:ab:0c:b7:c9:38:c3:43:61:14:b4:
+                    43:f1:d2:ad:d5:dc:9c:61:cd:5f:81:ee:0a:f8:c4:
+                    c1:e5:e8:2a:ee:2f:ba:ff:80:d6:cf:2a:5a:aa:b7:
+                    51:9e:24:35:65:85:3a:b1:46:f8:73:c3:d5:40:fc:
+                    8f:cc:05:dd:b0:1e:66:d8:bd:d4:6b:7d:24:1a:11:
+                    dd:9f:77:e1:26:72:b8:99:64:e8:25:d1:1d:d6:31:
+                    76:c8:ca:54:98:c9:fe:cc:5c:c0:b7:96:8e:9a:6f:
+                    3b:a6:5a:3d:89:0f:28:b3:c3:8f:40:62:95:dc:a5:
+                    b0:c5:aa:7d:5a:a8:eb:8f:d1:63:c3:76:ec:c4:7a:
+                    c0:24:0f:05:b5:eb:63:8e:76:c0:35:e7:2f:99:7f:
+                    03:5a:e8:ec:4c:8e:84:41:4a:89:ff:87:d9:74:da:
+                    a5:f8:d1:b6:37:08:bd:d5:75:ef:86:28:80:b2:4c:
+                    b2:5c:77:27:b5:c8:3d:0e:55:3e:2a:11:63:aa:b3:
+                    a2:15:7b:9f:cd:79:3b:51:9e:1a:ee:60:0b:22:1a:
+                    7e:c4:66:1e:6a:c6:19:06:90:39:c9:75:27:bd:e5:
+                    fb:58:ad:f3:30:22:7d:5a:0a:30:c3:5a:69:d0:81:
+                    fe:61
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                73:35:64:1A:AC:88:50:54:F1:A8:5A:A9:5D:C5:DE:42:9C:63:48:B3
+            X509v3 Authority Key Identifier: 
+                keyid:D0:71:FA:B9:7F:35:82:E8:99:9B:03:A1:33:C7:58:29:07:48:7E:26
+
+    Signature Algorithm: sha256WithRSAEncryption
+         d5:ae:fc:c0:b6:fd:f3:0b:d5:68:a9:98:9d:9c:6d:e3:46:88:
+         15:16:03:13:a9:e6:46:92:46:46:9a:b5:3c:55:e2:7f:5e:5e:
+         d8:a2:ff:42:74:fd:2f:4f:cd:31:f5:8c:12:ae:aa:ef:4d:0f:
+         d4:43:c0:de:3d:a5:18:86:30:2e:0c:ff:73:a2:40:5d:ea:b1:
+         4e:f6:e3:3e:d9:89:bf:6c:63:71:ef:32:96:a6:3e:4a:07:2b:
+         76:7c:62:6e:4b:6d:d2:eb:bc:b4:aa:db:52:21:2a:0f:92:db:
+         00:5e:c7:e4:eb:55:7f:65:50:85:ac:d2:95:a8:b6:dc:e5:16:
+         bb:de:06:b7:e8:14:4b:ff:88:a9:df:fd:38:fa:ae:d0:20:a4:
+         0d:77:95:51:87:8f:04:8b:dd:bb:ad:4e:67:8f:a9:5f:41:95:
+         9e:6b:bd:7a:4a:30:8e:fd:af:c0:05:99:11:96:45:49:79:94:
+         56:63:5c:82:99:1d:9e:29:3a:91:81:c8:a7:de:c8:f0:36:96:
+         65:01:b0:a8:a8:cb:ae:50:f6:f7:5f:db:75:26:c9:95:4b:cf:
+         6b:bf:9a:ad:96:db:79:4e:4a:2a:f1:3b:8c:78:3a:da:0b:0f:
+         ee:d5:db:86:f5:b2:f0:74:95:7e:f1:3d:94:52:3b:3d:ad:ad:
+         8e:40:e0:ae:4e:65:35:d1:4e:55:68:90:51:f9:8c:b7:ba:23:
+         bc:d2:06:9d:36:04:c4:72:b1:27:d3:84:3c:e5:ca:2e:9e:41:
+         92:14:53:98:c5:fb:fe:66:e9:da:27:f1:16:9b:a8:99:d2:c7:
+         c2:2a:1a:e8:d3:dc:53:5c:17:35:b8:b8:49:b0:4f:58:93:75:
+         4f:92:85:56:f3:03:72:93:ce:90:47:1a:36:4a:81:c8:d7:b3:
+         82:40:71:b4:9e:f1:27:aa:9c:e7:46:73:9c:c9:ec:4a:f7:21:
+         51:b8:3f:98:a3:04:95:14:2e:71:3e:3e:cb:11:92:c1:dd:27:
+         51:4a:8b:86:f8:8f:89:39:75:c8:1b:b9:a5:1b:ad:a8:0f:42:
+         96:ef:89:d9:ae:13:10:67:0f:95:d2:8a:f7:15:83:41:08:41:
+         fb:13:34:51:7c:85:69:8c:b0:d7:e9:8e:d4:21:69:8d:b5:e9:
+         cf:09:a1:97:25:77:4a:2f:e6:b5:72:7f:c1:4c:b4:15:39:04:
+         49:3d:06:a7:cf:67:f1:46:e5:c1:c7:c3:15:7a:9f:ce:b7:6c:
+         32:b8:00:a3:df:86:75:a3:32:79:39:50:4a:ba:17:16:1d:b4:
+         52:1f:43:cb:10:e8:b4:a3:58:c6:80:40:38:99:77:57:64:73:
+         bd:40:1c:de:44:79:34:bf
+-----BEGIN CERTIFICATE-----
+MIIFQzCCAyugAwIBAgICEAIwDQYJKoZIhvcNAQELBQAwgbAxCzAJBgNVBAYTAlRX
+MQ8wDQYDVQQIDAZUYWl3YW4xEDAOBgNVBAcMB0hzaW5DaHUxIjAgBgNVBAoMGVp5
+WEVMIGNvbW11bmljYXRpb24gY29ycC4xDTALBgNVBAsMBENBQkMxJTAjBgNVBAMM
+HG15WnlYRUxDbG91ZCBpbnRlcm1lZGlhdGUgQ0ExJDAiBgkqhkiG9w0BCQEWFWNs
+b3VkYWRtQHp5eGVsLmNvbS50dzAeFw0xNTA1MTMwMzUxMTFaFw0xNTA4MTEwMzUx
+MTFaMIGaMQswCQYDVQQGEwJUVzEPMA0GA1UECAwGVGFpd2FuMRAwDgYDVQQHDAdI
+c2luQ2h1MSIwIAYDVQQKDBlaeVhFTCBjb21tdW5pY2F0aW9uIGNvcnAuMQ0wCwYD
+VQQLDARDQUJDMQ8wDQYDVQQDDAZBcHBEZXYxJDAiBgkqhkiG9w0BCQEWFWNsb3Vk
+YWRtQHp5eGVsLmNvbS50dzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AN9WcIRlMya4yJ8XOMHsv5XsoZurDLfJOMNDYRS0Q/HSrdXcnGHNX4HuCvjEweXo
+Ku4vuv+A1s8qWqq3UZ4kNWWFOrFG+HPD1UD8j8wF3bAeZti91Gt9JBoR3Z934SZy
+uJlk6CXRHdYxdsjKVJjJ/sxcwLeWjppvO6ZaPYkPKLPDj0BildylsMWqfVqo64/R
+Y8N27MR6wCQPBbXrY452wDXnL5l/A1ro7EyOhEFKif+H2XTapfjRtjcIvdV174Yo
+gLJMslx3J7XIPQ5VPioRY6qzohV7n815O1GeGu5gCyIafsRmHmrGGQaQOcl1J73l
++1it8zAifVoKMMNaadCB/mECAwEAAaN7MHkwCQYDVR0TBAIwADAsBglghkgBhvhC
+AQ0EHxYdT3BlblNTTCBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFHM1
+ZBqsiFBU8ahaqV3F3kKcY0izMB8GA1UdIwQYMBaAFNBx+rl/NYLomZsDoTPHWCkH
+SH4mMA0GCSqGSIb3DQEBCwUAA4ICAQDVrvzAtv3zC9VoqZidnG3jRogVFgMTqeZG
+kkZGmrU8VeJ/Xl7Yov9CdP0vT80x9YwSrqrvTQ/UQ8DePaUYhjAuDP9zokBd6rFO
+9uM+2Ym/bGNx7zKWpj5KByt2fGJuS23S67y0qttSISoPktsAXsfk61V/ZVCFrNKV
+qLbc5Ra73ga36BRL/4ip3/04+q7QIKQNd5VRh48Ei927rU5nj6lfQZWea716SjCO
+/a/ABZkRlkVJeZRWY1yCmR2eKTqRgcin3sjwNpZlAbCoqMuuUPb3X9t1JsmVS89r
+v5qtltt5Tkoq8TuMeDraCw/u1duG9bLwdJV+8T2UUjs9ra2OQOCuTmU10U5VaJBR
++Yy3uiO80gadNgTEcrEn04Q85counkGSFFOYxfv+ZunaJ/EWm6iZ0sfCKhro09xT
+XBc1uLhJsE9Yk3VPkoVW8wNyk86QRxo2SoHI17OCQHG0nvEnqpznRnOcyexK9yFR
+uD+YowSVFC5xPj7LEZLB3SdRSouG+I+JOXXIG7mlG62oD0KW74nZrhMQZw+V0or3
+FYNBCEH7EzRRfIVpjLDX6Y7UIWmNtenPCaGXJXdKL+a1cn/BTLQVOQRJPQanz2fx
+RuXBx8MVep/Ot2wyuACj34Z1ozJ5OVBKuhcWHbRSH0PLEOi0o1jGgEA4mXdXZHO9
+QBzeRHk0vw==
+-----END CERTIFICATE-----
