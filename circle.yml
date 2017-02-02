@@ -6,6 +6,7 @@ checkout:
 machine:
   environment:
     ANDROID_HOME: /usr/local/android-sdk-linux
+    QEMU_AUDIO_DRV: none
 
 dependencies:
   override:
@@ -13,7 +14,7 @@ dependencies:
 
 test:
   pre:
-    - emulator -avd circleci-android21 -no-audio -no-window:
+    - emulator -avd circleci-android24 -no-window:
         background: true
         parallel: true
     - circle-android wait-for-boot
@@ -27,7 +28,7 @@ test:
     - cp app/build/outputs/app-debug.apk calabash.apk
     - calabash-android resign "`pwd`/calabash.apk"
     - calabash-android run "`pwd`/calabash.apk" --format junit --out /tmp/junit
-    - cp -r app/build/outputs $CIRCLE_ARTIFACTS
+    - cp -r app/build/outputs/app-debug.apk $CIRCLE_ARTIFACTS
     - cp *.png $CIRCLE_ARTIFACTS
     - cp /tmp/junit/* $CIRCLE_TEST_REPORTS
     - adb logcat -d > $CIRCLE_ARTIFACTS/logcat.txt
