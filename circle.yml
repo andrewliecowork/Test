@@ -27,6 +27,8 @@ test:
     - ./gradlew assembleDebug
     - cp app/build/outputs/apk/app-debug.apk calabash.apk
     - calabash-android resign "`pwd`/calabash.apk"
+    - adb uninstall ecoworkinc.com.test
+    - adb install app/build/outputs/apk/app-debug.apk
     - calabash-android run "`pwd`/calabash.apk" -p android
     - cp -r app/build/outputs/apk/app-debug.apk $CIRCLE_ARTIFACTS
     - cp *.png $CIRCLE_ARTIFACTS
